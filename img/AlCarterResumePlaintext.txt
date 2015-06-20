@@ -1,0 +1,106 @@
+Albert R Carter
+Looking for work as a junior developer or project manager
+
+******* Contact: *******
+77 Massachusetts Ave
+38-409C
+Cambridge, MA 02139
+
+www.albertrcarter.com
+www.github.com/RogerTangos
+
+617.258.8773
+251.533.8331
+
+arcarter@mit.edu
+al@albertrcarter.com
+
+******* Languages: *******
+Python
+Objective-C
+Java
+
+Javascript
+jQuery
+Coffeescript
+
+Oracle SQL
+PL/SQL
+
+******* Education: *******
+Brown University Commerce, Organizations
+& Entrepreneurship BA, 3.6 GPA, 2009
+
+Northeastern University Information Systems
+MS, 3.5 GPA (expected 2014)
+
+******* Startup: *******
+Konnessi, a Web Marketing Startup
+Project Mngr, COO
+
+******* Nonprofit: *******
+Recycle-a-Bike Grant Writer, Mechanic, Educator
+
+
+******* Projects: *******
+Bike Trace (iOS)
+	- a bicycle route tracing app
+	- multi-tasking, multi-threading,
+	  geo-enabled
+	- selected api’s and packages:
+      Google Geolocation, Google Places, CLLocation, 
+	  CMDeviceMotion, MKOverlayView, MKMapView, 
+	  MKAnnotation
+	- languages:
+		Objective-C, C, Javascript, SQLite
+
+CDC Vaccine Tracking (desktop) 
+	- a mock vaccine invoicing and tracking system 
+	  for the CDC
+	- support for 3+ user-types in 5+ organizations
+	- selected usecases: vaccine ordering, invoicing,
+	  manufacturing, distribution, administration
+	- language: Java
+
+Telescopic Text (web client)
+	- an open-source nonlinear text exploration web 
+	  program
+	- controllable via json
+	- embeddable html, css, javascript
+	- languages: Javascript with jQuery via Coffeescript 
+
+Mountain View Hospital (full stack)
+	- a mock database and web-interface for 
+	  administering a hospital
+	- managed and led 4 students (inclusive)
+	- determined business rules, entities functional
+	  dependencies, relational schema, and overall
+	  architecture
+	- developed front-end client views
+	- 45+ entities, 65+ relationships
+	- languages: Oracle SQL, Java, Javascript with 
+	  jQuery via Coffeescript
+
+Open Source Soylent
+	- a nutritionally complete and shelf stable food
+	  substitute
+	- managed and led a loose group of 15 hackers
+	  (inclusive)
+	- ask for more info
+
+Brown Student Agencies
+	- a student-run business that manages contracts for
+	  Brown University
+	- rapidly promoted to CFO
+	- secured co-worker buy-in and created administrative
+	  coalition
+	- increased net annual earnings from -$3,218 to $12,400
+	- negotiated and restructured one half of business's
+	  vendor and partner contracts
+
+******* Misc Software: *******
+Photoshop
+Eclipse
+Arc-Map
+Sublime Text
+LaTeX

@@ -1,0 +1,127 @@
+h1 {
+    color:#fff;
+}
+
+.h1-bold {
+    color:#fff;
+}
+
+.h2-welcome {
+    color:#fff;
+}
+
+.go-to-second {
+    background:#fff url(../img/progress_arrow_white.png) no-repeat center 90px;
+}
+
+.time-line-href {
+    color: #fff;
+    background:#fff;
+}
+
+.circleLine {
+    background:#000;
+}
+
+.bar-elapsed {
+            background-image: -webkit-gradient(linear, left top, right bottom,
+                            color-stop(.25, rgba(255, 255, 255, .99)), color-stop(.25, transparent),
+                            color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .99)),
+                            color-stop(.75, rgba(255, 255, 255, .99)), color-stop(.75, transparent),
+                            to(transparent));
+        background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .99) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .99) 50%, rgba(255, 255, 255, .99) 75%,
+                            transparent 75%, transparent);
+        background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .99) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .99) 50%, rgba(255, 255, 255, .99) 75%,
+                            transparent 75%, transparent);
+        background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .99) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .99) 50%, rgba(255, 255, 255, .99) 75%,
+                            transparent 75%, transparent);
+        background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .99) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .99) 50%, rgba(255, 255, 255, .99) 75%,
+                            transparent 75%, transparent);
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .99) 25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .99) 50%, rgba(255, 255, 255, .99) 75%,
+                            transparent 75%, transparent);
+}
+
+
+#line {
+    background:#fff;
+    
+}
+
+#outputtext h1 {
+    color: #212125;
+}
+
+#outputtext p {
+    color: #212125;
+}
+
+#third p {
+    color:#fff;
+}
+
+.column h4 {
+    color:#fff;
+
+}
+        
+.column span {
+    color:#fff;
+}
+
+.black {
+    background:#212125;
+}
+
+.black span {
+    color:#EDEEEE;
+}
+
+.column-two h4 {
+    color:#fff;
+}
+
+        
+.column-two span {
+    color:#fff;
+}
+
+#fourth h3 {
+    color:#fff;
+}
+    
+#fourth p {
+    color:#fff;
+}
+
+.circle {
+    background:#fff;
+}
+
+.circle span {
+    color:#212125;
+}
+
+.go-to-second span {
+    color:#212125;
+}
+
+.circle-container:hover .circle {
+    background:#212125;
+}
+
+.circle-container:hover span {
+    color:#fff;
+}
+
+#fifth h3 {
+    color:#fff;
+}
+
+#fifth p {
+    color:#fff;
+}
