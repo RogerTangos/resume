@@ -1,106 +1,151 @@
 Albert R Carter
-Looking for work as a junior developer or project manager
+Open source programmer at MIT Big Data Initiative seeking employment 
+on the West Coast as a web or mobile developer.
 
 ******* Contact: *******
-77 Massachusetts Ave
-38-409C
-Cambridge, MA 02139
+83 Marion St, #3
+Somerville, MA 02143
 
-www.albertrcarter.com
-www.github.com/RogerTangos
+albertrcarter.com
+livinglab.mit.edu
+github.com/RogerTangos
+github.com/CSAIL-livinglab
 
-617.258.8773
 251.533.8331
 
 arcarter@mit.edu
 al@albertrcarter.com
 
-******* Languages: *******
+******* Languages & Frameworks: *******
 Python
 Objective-C
 Java
+
+Oracle SQL
+PL/SQL
+Postgres SQL
 
 Javascript
 jQuery
 Coffeescript
 
-Oracle SQL
-PL/SQL
+HTML
+CSS
+
+Django
+QUnit
 
 ******* Education: *******
 Brown University Commerce, Organizations
 & Entrepreneurship BA, 3.6 GPA, 2009
 
 Northeastern University Information Systems
-MS, 3.5 GPA (expected 2014)
+MS, 3.6 GPA, 2014
+
+******* MIT Research + Prototyping: *******
+MIT Computer Science and Artificial Intelligence Lab (CSAIL) 
+Big Data Initiative, Programmer, 2014-2015
+
+I spent my time here using, testing, fixing, and open-sourcing version 0.01
+student research, and bringing it closer to production.
 
 ******* Startup: *******
 Konnessi, a Web Marketing Startup
-Project Mngr, COO
+Project Manager, COO
 
 ******* Nonprofit: *******
-Recycle-a-Bike Grant Writer, Mechanic, Educator
+Recycle-a-Bike 
+Teacher, Grant Writer, Mechanic
 
 
-******* Projects: *******
+******* Selected Projects: *******
+
+DataHub (Django + Postgres)
+    datahub.csail.mit.edu
+	- a collaborative platform for private data-processing and sharing
+	- think github + postgres + web app mashup
+	- selected technologies:
+        django, postgres, thrift, javascript
+    - used version 0.01 to build GetFit app
+    - closed out numerous UX and administrative issues and stories
+    - steered development of DataHub as a platform
+
+WikiMaps (web client + java + C++)
+    wikimap.csail.mit.edu/beta
+    - a resurrection of a room-to-room mapping project at MIT
+        Uses computer vision, Dijkstra, and Delaunay triangulation to convert
+        CAD drawings into graphs, and give human-navigable paths between rooms 
+    - researched problem, reading papers, and reaching out to authors
+    - Set up a new API returning directions
+    - re-implemented a light front-end web interface
+
+GetFit (iOS)
+    livinglab.mit.edu/getfit-wrapup
+	- a fitness tracking research project that collects annotated user data and
+      serves as a test bed for MIT CSAIL's emerging technologies
+    - technologies tested include DataHub v0.01, OpenSense v0.2
+    - integrated with the MIT Medical website through token scraping (no
+      API was available.)
+	- 174 users posted 311 hours of annotated data including 92335 location 
+      readings
+    - developed and distributed the app, and the OpenSense Library behind it
+
+OpenSense Library (iOS)
+    github.com/CSAIL-LivingLab/ios-opensensing
+	- a multi-tasking enabled mobile sensing library for iOS
+	- updated from iOS 5 to iOS 7
+	- added new sensors for iPhone 5+
+	- cleaned and refactored  code for App Store distribution
+
+openPDS (Django + MongoDB)
+    openpds.media.mit.edu
+	- a privacy-preserving platform for data storage and computation
+    - significantly improved project orthogonality, making it more approachable
+      and easier for additional sensing libraries to integrate with
+    - features were migrated to the DataHub project
+
 Bike Trace (iOS)
+    github.com/RogerTangos/BikeTrace
 	- a bicycle route tracing app
-	- multi-tasking, multi-threading,
-	  geo-enabled
+	- multi-tasking, multi-threading, geo-enabled
 	- selected api’s and packages:
       Google Geolocation, Google Places, CLLocation, 
 	  CMDeviceMotion, MKOverlayView, MKMapView, 
 	  MKAnnotation
-	- languages:
-		Objective-C, C, Javascript, SQLite
-
-CDC Vaccine Tracking (desktop) 
-	- a mock vaccine invoicing and tracking system 
-	  for the CDC
-	- support for 3+ user-types in 5+ organizations
-	- selected usecases: vaccine ordering, invoicing,
-	  manufacturing, distribution, administration
-	- language: Java
+	  Objective-C, C, Javascript, SQLite
 
 Telescopic Text (web client)
-	- an open-source nonlinear text exploration web 
-	  program
+    github.com/RogerTangos/telescopic
+	- an open-source graph-based text exploration program
 	- controllable via json
 	- embeddable html, css, javascript
-	- languages: Javascript with jQuery via Coffeescript 
+	- Javascript with jQuery via Coffeescript, QUnit
 
-Mountain View Hospital (full stack)
-	- a mock database and web-interface for 
-	  administering a hospital
-	- managed and led 4 students (inclusive)
-	- determined business rules, entities functional
-	  dependencies, relational schema, and overall
-	  architecture
-	- developed front-end client views
-	- 45+ entities, 65+ relationships
-	- languages: Oracle SQL, Java, Javascript with 
-	  jQuery via Coffeescript
 
 Open Source Soylent
-	- a nutritionally complete and shelf stable food
-	  substitute
-	- managed and led a loose group of 15 hackers
-	  (inclusive)
+	- a nutritionally complete and shelf stable food substitute
+	- managed and led a loose group of 15 hackers (inclusive)
 	- ask for more info
 
-Brown Student Agencies
-	- a student-run business that manages contracts for
-	  Brown University
-	- rapidly promoted to CFO
-	- secured co-worker buy-in and created administrative
-	  coalition
-	- increased net annual earnings from -$3,218 to $12,400
-	- negotiated and restructured one half of business's
-	  vendor and partner contracts
-
 ******* Misc Software: *******
-Photoshop
-Eclipse
-Arc-Map
+Adobe Photoshop
+Adobe Indesign
+
 Sublime Text
-LaTeX
+Vim
+XCode
+
+Eclipse (rusty)
+Arc-Map (rusty)
+LaTeX (rusty)
+
+******* Misc Skills/Interests: *******
+Agile Development
+Git
+Rock Climbing
+Cycling
+Swimming
+Thai Massage
+Urban Exploration
+Environmental Activism
+
