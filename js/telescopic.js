@@ -215,8 +215,8 @@ makeTestVerticies = function() {
   });
   telescopicText.vertex({
     _name: 'X',
-    content: 'And student code isn\'t the best. ',
-    _children: [['Y', 'A1']],
+    content: 'And student code isn\'t always the best. ',
+    _children: [['Y']],
     _remainAfterClick: true,
     _next: 'Y',
     _graph: 'graph1',
@@ -242,7 +242,7 @@ makeTestVerticies = function() {
   });
   telescopicText.vertex({
       _name: 'A2',
-      content: 'I\'d like it... ',
+      content: 'I\'d like it ...',
       _children: null,
       _remainAfterClick: true,
       _next: 'Z1',
@@ -251,7 +251,7 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'Z1',
-      content: 'if my face didn\'t hurt from the cold when I went outside. ',
+      content: 'if my face didn\'t hurt from the cold when I went outside... ',
       _children: [['Z2']],
       _remainAfterClick: false,
       _next: 'Z2',
@@ -260,7 +260,7 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'Z2',
-      content: 'if there were better hiking. ',
+      content: 'if there were better hiking... ',
       _children: [['Z3']],
       _remainAfterClick: false,
       _next: 'Z3',
@@ -269,7 +269,7 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'Z3',
-      content: 'if there were better biking. ',
+      content: 'if there were better biking... ',
       _children: [['Z4']],
       _remainAfterClick: false,
       _next: 'Z4',
@@ -278,7 +278,7 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'Z4',
-      content: 'if there were better climbing. ',
+      content: 'if there were better climbing... ',
       _children: [['Z5']],
       _remainAfterClick: false,
       _next: 'Z5',
@@ -288,7 +288,7 @@ makeTestVerticies = function() {
   telescopicText.vertex({
       _name: 'Z5',
       content: 'if I could start working with grown-up code... ',
-      _children: null,
+      _children: [['Z6', 'A1']],
       _remainAfterClick: false,
       _next: 'Z6',
       _graph: 'graph1',
@@ -296,8 +296,8 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'Z6',
-      content: 'better where you are. ',
-      _children: [['A1']],
+      content: 'better where you are... ',
+      _children: null,
       _remainAfterClick: true,
       _next: 'A1',
       _graph: 'graph1',
@@ -305,16 +305,16 @@ makeTestVerticies = function() {
     });
   telescopicText.vertex({
       _name: 'A1',
-      content: '<strong>I want to move west.</strong> ',
+      content: '<span style="text-decoration: underline;">I want to move west.</span> ',
       _children: [['A3']],
-      _remainAfterClick: false,
+      _remainAfterClick: true,
       _next: 'A3',
       _graph: 'graph1',
       _starter: null
     });
   telescopicText.vertex({
       _name: 'A3',
-      content: 'Will you hire me? ',
+      content: '<br /><br /><div style="text-align:center; font-size: 1.4em;">Will you hire me?<div> ',
       _children: null,
       _remainAfterClick: false,
       _next: null,
