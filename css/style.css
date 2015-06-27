@@ -878,9 +878,10 @@ html {overflow-x:hidden;}
 }    
 
 .tText_clickable {
-    background-color:#C6E8E8;
+    background-color:#66CCFF;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    cursor:pointer;
 }
 
 .tText_backClickable {
@@ -894,7 +895,7 @@ html {overflow-x:hidden;}
 }
 
 .tText_clickable:hover {
-    background-color:#8BA2A2;
+    background-color:#6699FF;
 }
 
 .outer-div
