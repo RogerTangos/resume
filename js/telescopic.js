@@ -16,7 +16,7 @@ makeTestVerticies = function() {
   telescopicText.vertex({
     _name: 'B',
     content: 'I\'ve been working at MIT. ',
-    _children: [['C', 'E','I', 'D', 'F','G']],
+    _children: [['C', 'E','I', 'D', 'K', 'L', 'F','G']],
     _remainAfterClick: true,
     _next: 'C',
     _graph: 'graph1',
@@ -33,10 +33,10 @@ makeTestVerticies = function() {
   });
   telescopicText.vertex({
     _name: 'D',
-    content: '<br /><br />During the most recent year, I\'ve worked as a programmer for the MIT ',
+    content: '<br /><br />During the most recent year, I\'ve been working as a ',
     _children: null,
     _remainAfterClick: false,
-    _next: 'F',
+    _next: 'K',
     _graph: 'graph1',
     _starter: false
   });
@@ -53,7 +53,7 @@ makeTestVerticies = function() {
     content: '<a href="http://bigdata.csail.mit.edu" target="_blank">Big Data Initiative</a> <a href="http://livinglab.mit.edu" target="_blank">Living Lab</a>. ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'M',
     _graph: 'graph1'
   });
   telescopicText.vertex({
@@ -90,116 +90,240 @@ makeTestVerticies = function() {
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
-    _children: null,
-    _remainAfterClick: false,
-    _next: null,
+    _name: 'K',
+    content: 'programmer ',
+    _children: [['M', 'V', 'O', 'P']],
+    _remainAfterClick: true,
+    _next: 'L',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'L',
+    content: 'for the MIT ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'F',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
-    _children: null,
-    _remainAfterClick: false,
-    _next: null,
+    _name: 'M',
+    content: 'What I do ',
+    _children: [['W']],
+    _remainAfterClick: true,
+    _next: 'V',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'N',
+    content: 'open source ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'O',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
-    _children: null,
-    _remainAfterClick: false,
-    _next: null,
+    _name: 'O',
+    content: 'experimental research software ',
+    _children: [['N'],['Q', 'R', 'U1'], ['U2', 'S'], ['U3', 'T']],
+    _remainAfterClick: true,
+    _next: 'P',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'P',
+    content: 'into production. ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'Q',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'Q',
+    content: 'Software like ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'R',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'R',
+    content: '<a href="https://github.com/CSAIL-LivingLab/ios-opensensing" target="_blank">OpenSense</a>',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'U2',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'S',
+    content: '<a href="http://openpds.media.mit.edu/" target="_blank">openPDS</a>',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'U3',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'T',
+    content: 'and <a href="http://datahub.csail.mit.edu" target="_blank">DataHub</a>',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'U1',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'U1',
+    content: '. ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'W',
     _graph: 'graph1'
   });
   telescopicText.vertex({
-    _name: '',
-    content: '',
+    _name: 'U2',
+    content: ', ',
     _children: null,
     _remainAfterClick: false,
-    _next: null,
+    _next: 'S',
     _graph: 'graph1',
-    _starter: true
+    _starter: false
   });
-  telescopicText.markup({
-    _name: '',
-    content: '',
+  telescopicText.vertex({
+    _name: 'U3',
+    content: ', ',
     _children: null,
-    _graph: 'graph1',
-    _starter: null
-  });
-  telescopicText.markup({
-    _name: '',
-    content: '',
-    _children: null,
+    _remainAfterClick: false,
+    _next: 'T',
     _graph: 'graph1',
     _starter: null
   });
+  telescopicText.vertex({
+    _name: 'V',
+    content: 'is bring ',
+    _children: null,
+    _remainAfterClick: false,
+    _next: 'N',
+    _graph: 'graph1',
+    _starter: null
+  });
+  telescopicText.vertex({
+    _name: 'W',
+    content: '<br /><br />It\'s not the easiest. ',
+    _children: [['X']],
+    _remainAfterClick: true,
+    _next: 'X',
+    _graph: 'graph1',
+    _starter: null
+  });
+  telescopicText.vertex({
+    _name: 'X',
+    content: 'And student code isn\'t the best. ',
+    _children: [['Y', 'A1']],
+    _remainAfterClick: true,
+    _next: 'Y',
+    _graph: 'graph1',
+    _starter: null
+  });
+  telescopicText.vertex({
+    _name: 'Y',
+    content: 'But it is interesting. ',
+    _children: [['Z', 'A', 'A2', 'Z1']],
+    _remainAfterClick: true,
+    _next: 'Z',
+    _graph: 'graph1',
+    _starter: null
+  });
+  telescopicText.vertex({
+    _name: 'Z',
+    content: '<br /><br />The lab has offered to extend my stay. But still, right now ',
+    _children: null,
+    _remainAfterClick: false,
+    _next: 'A2',
+    _graph: 'graph1',
+    _starter: null
+  });
+  telescopicText.vertex({
+      _name: 'A2',
+      content: 'I\'d like it... ',
+      _children: null,
+      _remainAfterClick: true,
+      _next: 'Z1',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z1',
+      content: 'if my face didn\'t hurt from the cold when I went outside. ',
+      _children: [['Z2']],
+      _remainAfterClick: false,
+      _next: 'Z2',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z2',
+      content: 'if there were better hiking. ',
+      _children: [['Z3']],
+      _remainAfterClick: false,
+      _next: 'Z3',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z3',
+      content: 'if there were better biking. ',
+      _children: [['Z4']],
+      _remainAfterClick: false,
+      _next: 'Z4',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z4',
+      content: 'if there were better climbing. ',
+      _children: [['Z5']],
+      _remainAfterClick: false,
+      _next: 'Z5',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z5',
+      content: 'if I could start working with grown-up code... ',
+      _children: null,
+      _remainAfterClick: false,
+      _next: 'Z6',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'Z6',
+      content: 'better where you are. ',
+      _children: [['A1']],
+      _remainAfterClick: true,
+      _next: 'A1',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'A1',
+      content: '<strong>I want to move west.</strong> ',
+      _children: [['A3']],
+      _remainAfterClick: false,
+      _next: 'A3',
+      _graph: 'graph1',
+      _starter: null
+    });
+  telescopicText.vertex({
+      _name: 'A3',
+      content: 'Will you hire me? ',
+      _children: null,
+      _remainAfterClick: false,
+      _next: null,
+      _graph: 'graph1',
+      _starter: null
+    });
+   
+
+
   graph1 = telescopicText.graphs['graph1'];
   return graph1;
 };
