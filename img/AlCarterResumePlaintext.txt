@@ -16,25 +16,6 @@ github.com/CSAIL-livinglab
 arcarter@mit.edu
 al@albertrcarter.com
 
-******* Languages & Frameworks: *******
-Python
-Objective-C
-Java
-
-Oracle SQL
-PL/SQL
-Postgres SQL
-
-Javascript
-jQuery
-Coffeescript
-
-HTML
-CSS
-
-Django
-QUnit
-
 ******* Education: *******
 Brown University Commerce, Organizations
 & Entrepreneurship BA, 3.6 GPA, 2009
@@ -62,9 +43,9 @@ Teacher, Grant Writer, Mechanic
 
 DataHub (Django + Postgres)
     datahub.csail.mit.edu
-	- a collaborative platform for private data-processing and sharing
-	- think github + postgres + web app mashup
-	- selected technologies:
+    - a collaborative platform for private data-processing and sharing
+    - think github + postgres + web app mashup
+    - selected technologies:
         django, postgres, thrift, javascript
     - used version 0.01 to build GetFit app
     - closed out numerous UX and administrative issues and stories
@@ -81,51 +62,69 @@ WikiMaps (web client + java + C++)
 
 GetFit (iOS)
     livinglab.mit.edu/getfit-wrapup
-	- a fitness tracking research project that collects annotated user data and
+    - a fitness tracking research project that collects annotated user data and
       serves as a test bed for MIT CSAIL's emerging technologies
-    - technologies tested include DataHub v0.01, OpenSense v0.2
+    - technologies tested include DataHub v0.01 and OpenSense v0.2
     - integrated with the MIT Medical website through token scraping (no
       API was available.)
-	- 174 users posted 311 hours of annotated data including 92335 location 
+    - 174 users posted 311 hours of annotated data including 92335 location 
       readings
     - developed and distributed the app, and the OpenSense Library behind it
 
 OpenSense Library (iOS)
     github.com/CSAIL-LivingLab/ios-opensensing
-	- a multi-tasking enabled mobile sensing library for iOS
-	- updated from iOS 5 to iOS 7
-	- added new sensors for iPhone 5+
-	- cleaned and refactored  code for App Store distribution
+    - a multi-tasking enabled mobile sensing library for iOS
+    - updated from iOS 5 to iOS 7
+    - added new sensors for iPhone 5+
+    - cleaned and refactored code for App Store distribution
 
 openPDS (Django + MongoDB)
     openpds.media.mit.edu
-	- a privacy-preserving platform for data storage and computation
-    - significantly improved project orthogonality, making it more approachable
-      and easier for additional sensing libraries to integrate with
+    - a privacy-preserving platform for data storage and computation
+    - significantly improved project orthogonality, making it easier to setup 
+      and integrate additional sensing libraries
     - features were migrated to the DataHub project
 
 Bike Trace (iOS)
     github.com/RogerTangos/BikeTrace
-	- a bicycle route tracing app
-	- multi-tasking, multi-threading, geo-enabled
-	- selected api’s and packages:
-      Google Geolocation, Google Places, CLLocation, 
-	  CMDeviceMotion, MKOverlayView, MKMapView, 
-	  MKAnnotation
-	  Objective-C, C, Javascript, SQLite
+    - a bicycle route tracing app
+    - multi-tasking, multi-threading, geo-enabled
+    - selected services and packages:
+      Google Geolocation, Google Places, CLLocation, CMDeviceMotion, 
+      MKOverlayView, MKMapView, MKAnnotation
+      Objective-C, C, Javascript, SQLite
 
 Telescopic Text (web client)
     github.com/RogerTangos/telescopic
-	- an open-source graph-based text exploration program
-	- controllable via json
-	- embeddable html, css, javascript
-	- Javascript with jQuery via Coffeescript, QUnit
+    - an open-source graph-based text exploration program
+    - controllable via json
+    - embeddable html, css, javascript
+    - Javascript with jQuery via Coffeescript, QUnit
 
 
 Open Source Soylent
-	- a nutritionally complete and shelf stable food substitute
-	- managed and led a loose group of 15 hackers (inclusive)
-	- ask for more info
+    - a nutritionally complete and shelf stable food substitute
+    - managed and led a loose group of 15 hackers (inclusive)
+    - ask for more info
+
+******* Languages & Frameworks: *******
+Python
+Objective-C
+Java*
+
+Oracle SQL*
+PL/SQL*
+Postgres SQL
+
+Javascript
+jQuery
+Coffeescript*
+
+HTML
+CSS
+
+Django
+QUnit
 
 ******* Misc Software: *******
 Adobe Photoshop
@@ -135,17 +134,19 @@ Sublime Text
 Vim
 XCode
 
-Eclipse (rusty)
-Arc-Map (rusty)
-LaTeX (rusty)
+Eclipse*
+Arc-Map*
+LaTeX*
 
 ******* Misc Skills/Interests: *******
 Agile Development
-Git
-Rock Climbing
+Git Flow
 Cycling
+Hiking
+Rock Climbing
 Swimming
 Thai Massage
 Urban Exploration
 Environmental Activism
 
+*rusty
