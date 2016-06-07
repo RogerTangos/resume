@@ -47,21 +47,21 @@
             <h1 class="h1-my-name">my name is</h1>
             <h1 class="h1-name">Al Carter</h1>
             <div class="outer-div">
-            <h2 class="h2-welcome">I am looking for employment as a developer at a mobile or web consultancy.</h2>
+            <h2 class="h2-welcome">I am currently employed as a research programmer at MIT CSAIL.</h2>
             <br /><br />
             <!-- telescopic text goes here. -->
-            
+<!--
                 <div class="inner-div">
                     <p id='tText-graph1'></p>
-                </div>
+                </div> -->
             </div>
-            
+
             <p>
-                <br />Thank You,
-                <br />Al
+                <!-- <br />Thank You, -->
+                <!-- <br />Al -->
                 <br />
                 <br />arcarter@csail.mit.edu
-                <br />251.533.8331</p>
+                <!-- <br />251.533.8331</p> -->
             <a class="go-to-second scroll" href="#aboutme"><span>Projects</span></a>
         </div>
         <!-- .inner -->
@@ -229,8 +229,8 @@
         <div class="inner">
             <h3>Please feel free to contact me</h3>
             <div class="contact-about">
-                <p>I am searching for opportunities with Web and Mobile consultancies in the Portland, OR, Vancouver, BC, Denver, CO, and SF Bay area. My interests (as you can see) are varied. I hope to continue working as a programmer within a small team, and on a variety of projects.
-                </p>
+                <!-- <p>I am searching for opportunities with Web and Mobile consultancies in the Portland, OR, Vancouver, BC, Denver, CO, and SF Bay area. My interests (as you can see) are varied. I hope to continue working as a programmer within a small team, and on a variety of projects.
+                </p> -->
                 <div class="address">
                     <span><img src="img/home.png" /></span>
                     <ul>
@@ -265,17 +265,17 @@
             </div>
             <!-- .contact-about -->
             <!-- <form id="form">
-		
+
 		<input type="text" value="Your name" id="formName" name="name" onblur="if (this.value == '') {this.value = 'Your name';}"  onfocus="if (this.value == 'Your name') {this.value = '';}" />
-		
+
 		<input type="text" value="Your email" id="formEmail" name="email" onblur="if (this.value == '') {this.value = 'Your email';}"  onfocus="if (this.value == 'Your email') {this.value = '';}" />
-		
+
 		<input type="text" value="Subject" id="formSubject" name="subject" onblur="if (this.value == '') {this.value = 'Subject';}"  onfocus="if (this.value == 'Subject') {this.value = '';}" />
 
 		<textarea name="message" id="message" onblur="if (this.value == '') {this.value = 'Your message';}"   onfocus="if (this.value == 'Your message') {this.value = '';}">Your message</textarea>
 
 		<input type="submit" id="submit" name="submit" value="SEND">
-		    
+
 	</form> -->
             <script type="text/javascript">
             function custommsg() {
@@ -298,12 +298,12 @@
             </script>
             <div class="ss-form-container" style="display:none; text-align:center;" id="form-message"> </div>
             <div class="ss-form-container" id="form-container">
-                <form action="" method="POST" target="fake-target" onsubmit="this.action='https://docs.google.com/forms/d/1LGks5kGpHOXwF5xkHSOLNy4dSgwk6pZeWh0s6WML-EA/formResponse'; 
+                <form action="" method="POST" target="fake-target" onsubmit="this.action='https://docs.google.com/forms/d/1LGks5kGpHOXwF5xkHSOLNy4dSgwk6pZeWh0s6WML-EA/formResponse';
 			if (validate(this)){
-			custommsg(); 
+			custommsg();
 			return true;
-		} 
-		else 
+		}
+		else
 		return false;">
                     <div>
                         <input type="text" name="entry.1544378031" value="" id="entry_1544378031" dir="auto" placeholder="Your name" keyev="true">
@@ -570,7 +570,7 @@
         pulser(0);
 
     var graph1;
-    graph1 = makeTestVerticies().setGraphChildReferences().makeLinkedList(startVertex);
+    // graph1 = makeTestVerticies().setGraphChildReferences().makeLinkedList(startVertex);
     $('#tText_A').click();
 
     }); // document.ready end
