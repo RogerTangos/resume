@@ -1,10 +1,9 @@
 Albert R Carter
-Open source programmer at MIT Big Data Initiative seeking employment 
-on the West Coast as a web or mobile developer.
+Open source programmer at MIT Big Data Initiative seeking employment
+in the Boston, MA area.
 
 ******* Contact: *******
-83 Marion St, #3
-Somerville, MA 02143
+Somerville, MA 02144
 
 albertrcarter.com
 livinglab.mit.edu
@@ -24,22 +23,29 @@ Northeastern University Information Systems
 MS, 3.6 GPA, 2014
 
 ******* MIT Research + Prototyping: *******
-MIT Computer Science and Artificial Intelligence Lab (CSAIL) 
-Big Data Initiative, Programmer, 2014-2015
+MIT Computer Science and Artificial Intelligence Lab (CSAIL)
+Big Data Initiative, Research Staff and Programmer, 2014-2017
 
-I spent my time here using, testing, fixing, and open-sourcing version 0.01
-student research, and bringing it closer to production.
+I spent my time here using, testing, fixing, open-sourcing
+version 0.01 research, and bringing it closer to production.
 
 ******* Startup: *******
 Konnessi, a Web Marketing Startup
 Project Manager, COO
 
 ******* Nonprofit: *******
-Recycle-a-Bike 
+Recycle-a-Bike
 Teacher, Grant Writer, Mechanic
 
 
 ******* Selected Projects: *******
+
+Aurum (React.js + Python)
+    aurum.csail.mit.edu
+    - a system for data discovery
+    - defined and implemented relational algebraic functions
+    - developed responsive front end UI
+    - (UI unfortunately not yet available for online demo)
 
 DataHub (Django + Postgres)
     datahub.csail.mit.edu
@@ -55,7 +61,7 @@ WikiMaps (web client + java + C++)
     wikimap.csail.mit.edu/beta
     - a resurrection of a room-to-room mapping project at MIT
         Uses computer vision, Dijkstra, and Delaunay triangulation to convert
-        CAD drawings into graphs, and give human-navigable paths between rooms 
+        CAD drawings into graphs, and give human-navigable paths between rooms
     - researched problem, reading papers, and reaching out to authors
     - Set up a new API returning directions
     - re-implemented a light front-end web interface
@@ -67,7 +73,7 @@ GetFit (iOS)
     - technologies tested include DataHub v0.01 and OpenSense v0.2
     - integrated with the MIT Medical website through token scraping (no
       API was available.)
-    - 174 users posted 311 hours of annotated data including 92335 location 
+    - 174 users posted 311 hours of annotated data including 92335 location
       readings
     - developed and distributed the app, and the OpenSense Library behind it
 
@@ -81,7 +87,7 @@ OpenSense Library (iOS)
 openPDS (Django + MongoDB)
     openpds.media.mit.edu
     - a privacy-preserving platform for data storage and computation
-    - significantly improved project orthogonality, making it easier to setup 
+    - significantly improved project orthogonality, making it easier to setup
       and integrate additional sensing libraries
     - features were migrated to the DataHub project
 
@@ -90,7 +96,7 @@ Bike Trace (iOS)
     - a bicycle route tracing app
     - multi-tasking, multi-threading, geo-enabled
     - selected services and packages:
-      Google Geolocation, Google Places, CLLocation, CMDeviceMotion, 
+      Google Geolocation, Google Places, CLLocation, CMDeviceMotion,
       MKOverlayView, MKMapView, MKAnnotation
       Objective-C, C, Javascript, SQLite
 
@@ -117,6 +123,7 @@ PL/SQL*
 Postgres SQL
 
 Javascript
+React.js
 jQuery
 Coffeescript*
 
@@ -124,7 +131,7 @@ HTML
 CSS
 
 Django
-QUnit
+QUnit*
 
 ******* Misc Software: *******
 Adobe Photoshop
@@ -145,8 +152,7 @@ Cycling
 Hiking
 Rock Climbing
 Swimming
-Thai Massage
 Urban Exploration
-Environmental Activism
+Engineering Activism
 
-*rusty
+* Not recently practiced
