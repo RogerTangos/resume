@@ -1,0 +1,184 @@
+/*!
+ * Author: Theme designed and developed by Michael Palmer, MP Web.
+ * Website: https://www.michaelpalmerwebdesign.com.
+ * Copyright MP Web 2018.
+ * Theme website: https://www.brutalist.design.
+ */
+
+/*!
+ * [Brutal Site Template - Table of contents]
+ * 1. Bootstrap
+ * 2. html
+ * 3. body
+ * 4. Fonts
+ * 5. Typography
+ * 6. Buttons
+ * 7. Lists
+ * 8. Inputs
+ * 9. Anchors
+ * 10. Navigation | nav
+ * 11. Fullscreen Hero section | #hero
+ * 12. Features | #features
+ * 13. Services | #services
+ * 14. Pricing | #pricing
+ * 15. Gallery | #gallery
+ * 16. Video | #video
+ * 17. Products | #products
+ * 18. Team | #team
+ * 19. Contact | #contact
+ * 20. Preloader | .preloader
+ * 21. Footer | footer
+ * 22. Navigation fullscreen | .nav-fs
+ * 23. Fullscreen section | #fullscreen
+ */
+
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/bootstrap-grid';
+
+
+
+
+//Template default colors
+$default-c-1: #000;
+$default-c-2: #fff;
+
+@import "partials/base";
+@import "variables";
+@import "theme-overrides";
+@import "mixins";
+@import "modules/bootstrap_overrides";
+@import "modules/nav";
+@import "modules/nav-style-2";
+@import "modules/header";
+@import "modules/components/_require_components";
+@import "modules/footer";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(255, 255, 255, 0.01) 0 0 1px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+
+  background-color: $secondary-c;
+  border-bottom:$bstyle 4px $primary-c;
+
+  @if $border-width > 1 {
+    border-width: $border-width;
+  }
+
+  @media(min-width: 768px) and (max-width: 1024px) {
+    border: none;
+    @include elem-border-side(bottom);
+  }
+
+  @include media-breakpoint-down(xs) {
+    border:$bstyle 4px $primary-c;
+  }
+
+  //fullscreen page
+  &.body-fs {
+    padding-top: 47px;
+    @include media-breakpoint-down(sm) {
+      padding-top: 42px;
+    }
+  }
+}//end body
+
+h1, h2, h3, h4, h5, p, li, label, input, textarea, strong, button {
+  color: $primary-c;
+}
+
+input, textarea {
+  color: $primary-c!important;
+  background-color: $secondary-c!important;
+}
+
+a {
+  color: $primary-c;
+
+  &:hover {
+    color: $primary-c;
+    text-decoration: none;
+  }
+}
+
+.anchor {
+  cursor: pointer;
+  &:hover {
+    background: $primary-c;
+    color: $secondary-c;
+
+    & > * {
+      color: $secondary-c;
+    }
+  }
+}
+
+.elem-border {
+  & > div {
+    @include elem-border();
+
+    @include media-breakpoint-down(xs) {
+      @include border-side-hidden(left);
+      @include border-side-hidden(right);
+    }
+
+    & + div {
+      @include border-side-hidden(left);
+    }
+  }
+}
+
+.btn-style-main {
+  position: relative;
+
+  -webkit-transition-delay: .30s;
+  -moz-transition-delay: .30s;
+  -o-transition-delay: .30s;
+  transition-delay: .30s;
+
+  &, a, span {
+    outline: solid 1px $secondary-c;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    -webkit-transition: outline .15s ease-in-out;
+    -moz-transition: outline .15s ease-in-out;
+    -o-transition: outline .15s ease-in-out;
+    transition: outline .15s ease-in-out;
+  }
+
+  a {
+    -webkit-transition-delay: .15s;
+    -moz-transition-delay: .15s;
+    -o-transition-delay: .15s;
+    transition-delay: .15s;
+
+    &:hover span {
+      background: $primary-c;
+      color: $secondary-c;
+    }
+  }
+
+  span {
+    outline: solid $border-width $primary-c;
+  }
+
+  &:hover {
+    outline: solid 1px $primary-c;
+
+    a {
+      outline: solid 1px $primary-c;
+    }
+  }
+}
+//Fullscreen bg
+@import 'modules/fullscreen';

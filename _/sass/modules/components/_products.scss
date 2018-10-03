@@ -1,0 +1,271 @@
+/*!
+ * [Products section - Table of contents]
+ * 1. Wrapper | #products
+ * 2. Title | .features-title
+ * 3. Left column | .products-left
+ * 4. Center column | .products-center
+ * 5. Right column | .products-right
+ * 6. Product container | .product-wrap
+ */
+
+$product_h: 210px;
+$product_h-resp-xl: 240px;
+$product_h-resp-md: 240px;
+$product_h-resp-sm: 150px;
+$product_h-resp-tab: 170px;
+$product_h-resp-xs: 120px;
+
+div#products {
+
+  h3 {
+    @include section-title;
+    width: 100%;
+    left: 0;
+  }
+
+  div.products-center {
+    position: relative;
+    text-align: center;
+
+    @include border-side-hidden(right);
+
+    @include media-breakpoint-down(md) {
+      @include elem-border;
+      @include border-side-hidden(top);
+      @include border-side-hidden(bottom);
+    }
+
+    @include media-breakpoint-down(sm) {
+      @include elem-border-side(top);
+      @include elem-border-side(bottom);
+      @include border-side-hidden(left);
+      @include border-side-hidden(right);
+    }
+  }
+
+
+  &:hover .products-center{
+    background: $primary-c;
+
+    h3 {
+      color: $secondary-c;
+    }
+  }
+
+
+  & > div {
+    @include border-side-hidden(top);
+
+    @include media-breakpoint-down(md) {
+      border: none;
+      @include elem-border-side(top);
+    }
+
+    @include media-breakpoint-down(sm) {
+      @include border-side-hidden(top);
+    }
+
+    .row > div {
+      
+      height: $product_h;
+      text-align: center;
+
+      @media(min-width: 1500px) {
+        height: calc(#{$product_h-resp-xl} + #{$elem-pad-px} * 2);
+      }
+
+      @include media-breakpoint-down(md) {
+        height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2);
+      }
+
+      @media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        height: $product_h-resp-tab;
+        border-bottom-width: $border-width / 2;
+        @include border-side-hidden(bottom);
+      }
+
+      @include media-breakpoint-down(sm) {
+        height: calc(#{$product_h-resp-sm} + #{$elem-pad-px} * 2);
+      }
+
+      @media(max-width: 320px) {
+        height: calc(#{$product_h-resp-xs} + #{$elem-pad-px} * 2)!important;
+      }
+
+      &:hover {
+        background: $primary-c;
+      }
+
+      .product-wrap {
+        height: calc(#{$product_h} - #{$border-width});
+        line-height: calc(#{$product_h} - #{$border-width});
+        cursor: pointer;
+
+        @media(min-width: 1500px) {
+          height: calc(#{$product_h-resp-xl} - #{$border-width});
+          line-height: calc(#{$product_h-resp-xl} - #{$border-width});
+          padding-top: $elem-pad-px;
+        }
+
+        @include media-breakpoint-down(md) {
+          height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2);
+          padding-top: calc(#{$elem-pad-px} + 2px);
+        }
+
+        @media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+          height: $product_h-resp-tab;
+          padding-top: $elem-pad-px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          height: calc(#{$product_h-resp-xs} + #{$elem-pad-px});
+          padding: $elem-pad-px 0;
+        }
+
+        img {
+          -o-object-fit: cover;
+          object-fit: cover;
+          width: calc(100% - 30px);
+          height: calc(#{$product_h} - 62px);
+          position: relative;
+          top: -1px;
+          border: $bstyle 1px $primary-c;
+
+          @media(min-width: 1500px) {
+            height: $product_h-resp-xl;
+          }
+
+          @include media-breakpoint-only(md) {
+            height: $product_h-resp-md;
+            width: auto;
+          }
+
+          @media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+            height: calc(#{$product_h-resp-tab} - #{$elem-pad-px} * 2);
+            vertical-align: top;
+          }
+
+          @include media-breakpoint-down(sm) {
+             width: 100%;
+            height: auto;
+            padding: 0;
+            vertical-align: top;
+          }
+        }
+      }//end product wrap
+      
+      @include elem-border-side(bottom);
+      @include elem-border-side(right);
+
+      @include media-breakpoint-down(md) {
+        @include border-side-hidden(right);
+        @include elem-border-side(left);
+
+        &:last-child {
+          @include elem-border-side(right);
+        }
+
+        @if $border-width > 1 {
+          @include elem-border-side(right);
+          border-right-width: calc(#{$border-width} / 2);
+        }
+
+        & + div {
+          @include elem-border-side(left);
+          border-left-width: calc(#{$border-width} / 2);
+        }
+      }
+
+      @include media-breakpoint-down(xs) {
+        @include border-side-hidden(left);
+        @include elem-border-side(bottom);
+      }
+    }//end row div
+
+
+    .products-right {
+      & > div {
+        @include border-side-hidden(right);
+        @include elem-border-side(left);
+
+        @if $border-width > 1 {
+          @include media-breakpoint-down(md) {
+            @include elem-border-side(right);
+            border-right-width: calc(#{$border-width} / 2);
+          }
+
+          @include media-breakpoint-only(md) {
+            height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2 + #{$border-width});
+          }
+        }
+
+        @include media-breakpoint-down(xs) {
+          @include border-side-hidden(left);
+          @include elem-border-side(bottom);
+          &:last-child {
+            @include border-side-hidden(right);
+          }
+        }
+      }
+
+      & + .products-right > div {
+
+        @include media-breakpoint-only(md) {
+          height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2);
+        }
+
+        @include media-breakpoint-down(sm) {
+          //height: calc(#{$product_h-resp-xs} + #{$elem-pad-px} * 2 - #{$border-width});
+        }
+      }
+    }//end products right
+
+
+    .products-left {
+
+      & > div {
+        @include media-breakpoint-only(md) {
+          height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2 + #{$border-width});
+        }
+      }
+
+      & + .products-left > div {
+        @include media-breakpoint-only(md) {
+          height: calc(#{$product_h-resp-md} + #{$elem-pad-px} * 2);
+        }
+      }
+
+      & > div:last-child {
+        @include border-side-hidden(right);
+
+        @include media-breakpoint-only(md) {
+          @include elem-border-side(right);
+        }
+
+        @include media-breakpoint-only(xs) {
+          @include border-side-hidden(right);
+        }
+      }
+
+      & + .products-left > div {
+        @media(max-width: 320px) {
+          height: calc(#{$product_h-resp-xs} + #{$elem-pad-px} * 2 - #{$border-width});
+        }
+      }
+    }//end products left
+
+
+    .row:last-child > div {
+      @include border-side-hidden(bottom);
+
+      @media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        @include elem-border-side(top);
+        border-top-width: $border-width / 2;
+      }
+
+      @include media-breakpoint-down(sm) {
+        @include elem-border-side(bottom);
+      }
+    }
+  }
+}//end div#products

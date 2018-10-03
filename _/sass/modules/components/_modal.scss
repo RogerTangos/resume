@@ -1,0 +1,72 @@
+//Theme customizer modal
+#theme-modal {
+  .modal-content {
+    @include prefix(border-radius, 0);
+    @include elem-border(!important);
+
+    padding-top: $elem-pad-px;
+
+    button.close {
+      position: absolute;
+      top: -30px;
+      right: 5px;
+      @include opacity(100, 1);
+      cursor: pointer;
+
+      span {
+        color: $primary-c;
+      }
+    }
+  }
+
+  .modal-footer {
+    border-top: none;
+  }
+
+  .modal-body {
+    padding-top: 0;
+  }
+}//end theme customizer modal
+
+
+
+
+//Template modal
+.template-modal {
+
+  .modal-header {
+
+    padding-bottom: 24px;
+
+    button {
+      position: relative;
+      top: -15px;
+      right: -15px;
+    }
+  }//end modal header
+
+
+  .modal-content {
+    padding: $elem-pad-px / 2;
+    @include prefix(border-radius, 0);
+  }//end modal content
+
+  .modal-footer {
+    padding: $elem-pad-px $elem-pad-px / 2 $elem-pad-px / 2;
+
+    p {
+      font-size: $fs-sm;
+      display: block;
+      width: 100%;
+    }
+
+    & > :not(:first-child) {
+      margin: 0;
+    }
+  }//end modal footer
+
+}
+
+
+
+

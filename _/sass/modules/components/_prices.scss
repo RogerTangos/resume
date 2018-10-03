@@ -1,0 +1,121 @@
+/*!
+ * [Pricing section - Table of contents]
+ * 1. Wrapper | #prices
+ * 2. Left column | .prices-left
+ * 3. Right column | .prices-right
+ */
+
+$prices_h: 240px;
+$prices_h-resp: auto;
+
+div#prices {
+  height: $prices_h;
+
+  @include media-breakpoint-down(md) {
+    height: $prices_h-resp;
+  }
+
+  div.prices-left {
+    position: relative;
+  }
+  
+  h3 {
+    @include section-title;
+  }
+
+  &:hover .prices-left{
+    background: $primary-c;
+
+    h3 {
+      color: $secondary-c;
+    }
+  }
+
+  & > div {
+    @include border-side-hidden(top);
+
+    @include media-breakpoint-only(md) {
+      @include elem-border-side(top);
+      @include border-side-hidden(bottom);
+    }
+  }
+
+  div.prices-right {
+    & > div {
+
+      text-align: center;
+
+      @include media-breakpoint-down(md) {
+        padding: $elem-pad-px 0;
+      }
+
+      p {
+        position: absolute;
+        bottom: $elem-pad-px;
+        left: initial;
+        right: 15px;
+
+        @include elem-underline;
+
+        @include media-breakpoint-down(md) {
+          position: relative;
+          right: initial;
+          bottom: initial;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        height: calc(#{$prices_h} - 1px);
+        line-height: calc(#{$prices_h} - 1px);
+        font-size: $h2-fs;
+
+        @include media-breakpoint-down(md) {
+          height: auto;
+          line-height: 1em;
+          margin: calc(#{$elem-pad-px} + #{$elem-pad-px} / 2) 0;
+          display: block;
+        }
+
+        @include media-breakpoint-down(sm) {
+          height: auto;
+          line-height: 1em;
+          margin: 0 0 $elem-pad-px 0;
+          display: block;
+        }
+
+        @media(max-width: 320px) {
+          position: relative;
+          left: -2px;
+        }
+      }
+
+      @include elem-border-side(right);
+
+      &:last-child {
+        @include border-side-hidden(right);
+      }
+
+      @include media-breakpoint-down(md) {
+        @include border-side-hidden(right);
+        @include elem-border-side(left);
+      }
+
+      @include media-breakpoint-down(sm) {
+        @include elem-border-side(bottom);
+
+        &:last-child {
+          @include border-side-hidden(bottom);
+        }
+      }
+
+      @include media-breakpoint-down(xs) {
+        @include border-side-hidden(left);
+      }
+
+      &:hover {
+        @include elem-hover(p);
+      }
+    }
+  }//end prices-right
+}//end div#prices
