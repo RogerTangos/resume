@@ -15039,3 +15039,13 @@ section#fullscreen .cta:hover a {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.logo {
+  min-width: 100%;
+  height: auto;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}

@@ -74,7 +74,7 @@
    * 2: Once the loading text is completed check if the youtube video has loaded
    * 3: When the youtube video is loaded remove the preloader
    */
-  var interval = null, inc = 500;
+  var interval = null, inc = 50;
   function run_preloader () {
     var p = $('p.loading-text'),
         preloader = $('.preloader');
