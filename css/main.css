@@ -12006,6 +12006,7 @@ nav h1 a {
 
 nav h1 span.stretch_it {
   display: inline-block;
+  width: 90%;
 }
 
 @media (max-width: 575.98px) {
@@ -15045,7 +15046,11 @@ section#fullscreen .cta:hover a {
   height: auto;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
