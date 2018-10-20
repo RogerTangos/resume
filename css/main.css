@@ -15054,3 +15054,9 @@ a:hover {
   background-color: black;
   color: white;
 }
+
+.modal-body ul{
+  display: list-item;
+  list-style: square;
+  margin-left: 2em;
+}
