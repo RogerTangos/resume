@@ -13699,7 +13699,7 @@ div#team div.team-left {
 }
 
 div#team div.team-wrap {
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 div#team div.team-wrap:hover span {
@@ -13739,9 +13739,9 @@ div#team div.team-wrap p span {
 div#team div.team-wrap div {
   position: absolute;
   top: 50%;
-  border: solid 1px #000;
-  border-radius: 100%;
-  width: 150px;
+  /*border: solid 1px #000;*/
+  /*border-radius: 100%;k*/
+  width: 180px;
   height: 150px;
   display: inline-block;
   left: 30px;
