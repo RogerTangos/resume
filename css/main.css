@@ -15060,3 +15060,7 @@ a:hover {
   list-style: square;
   margin-left: 2em;
 }
+
+modal-header img{
+  float: right;
+}
