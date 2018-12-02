@@ -6184,6 +6184,10 @@ button.close {
   padding: 1rem;
 }
 
+.modal-body p {
+  margin-bottom: 1em;
+}
+
 .modal-footer {
   display: -webkit-box;
   display: -ms-flexbox;
