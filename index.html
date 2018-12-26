@@ -161,12 +161,12 @@
         <div id="services" class="row">
             <div class="col-lg-4 col-md-12 order-2 order-lg-1 order-md-2 order-sm-2">
                 <div class="row elem-border services-left">
-                    <div class="col-lg-12 col-sm-6 col-6">
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".trane-modal">
                         <h4>Trane <br /></h4>
                         <p>A tool for automatically formulating prediction problems</p>
                         <a href="#" data-toggle="modal" data-target=".trane-modal">Read more</a>
                     </div>
-                    <div class="col-lg-12 col-sm-6 col-6">
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".atm-modal">
                         <h4>Auto Tuning<br/> Models</h4>
                         <p>An application for automatically selecting and tuning ML models</p>
                         <a href="#" data-toggle="modal" data-target=".atm-modal">Read more</a>
@@ -178,12 +178,12 @@
             </div>
             <div class="col-lg-4 col-md-12 order-3">
                 <div class="row elem-border services-right">
-                    <div class="col-lg-12 col-sm-6 col-6">
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".datahub-modal">
                         <h4>DataHub<br/></h4>
                         <p>A data publishing and collaboration ecosystem</p>
                         <a href="#" data-toggle="modal" data-target=".datahub-modal">Read more</a>
                     </div>
-                    <div class="col-lg-12 col-sm-6 col-6">
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".aurum-modal">
                         <h4>Aurum<br/> </h4>
                         <p>An application for large scale data discovery</p>
                         <a href="#" data-toggle="modal" data-target=".aurum-modal">Read more</a>
@@ -199,15 +199,15 @@
             </div>
             <div class="col-lg-10">
                 <div class="row prices-right">
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".opensensing-modal">
                         <h4>OpenSensing</h4>
                         <p><a href="#" data-toggle="modal" data-target=".opensensing-modal">Read more</a></p>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".getfit-modal">
                         <h4>GetFit</h4>
                         <p><a href="#" data-toggle="modal" data-target=".getfit-modal">Read more</a></p>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".bigdawg-modal">
                         <h4>BigDawg</h4>
                         <p><a href="#" data-toggle="modal" data-target=".bigdawg-modal">Read more</a></p>
                     </div>
@@ -220,24 +220,24 @@
             <div class="col-lg-4 col-md-12 order-2 order-lg-1 order-md-2 order-sm-2">
                 <div class="row products-left">
                     <div class="col-6">
-                        <div class="product-wrap">
-                            <h4><a href="#" data-toggle="modal" data-target=".openpds-modal">OpenPDS</a></h4>
+                        <div class="product-wrap" data-toggle="modal" data-target=".openpds-modal">
+                            <h4><a href="#"  data-toggle="modal" data-target=".openpds-modal">OpenPDS</a></h4>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="product-wrap">
+                        <div class="product-wrap" data-toggle="modal" data-target=".lostleaks-modal">
                             <h4><a href="#" data-toggle="modal" data-target=".lostleaks-modal">LostLeaks</a></h4>
                         </div>
                     </div>
                 </div>
                 <div class="row products-left">
                     <div class="col-6">
-                        <div class="product-wrap">
+                        <div class="product-wrap" data-toggle="modal" data-target=".industryoutlook-modal">
                             <h4><a href="#" data-toggle="modal" data-target=".industryoutlook-modal">Industry</br>Outlook</a></h4>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="product-wrap">
+                        <div class="product-wrap" data-toggle="modal" data-target=".biketrace-modal">
                             <h4><a href="#" data-toggle="modal" data-target=".biketrace-modal">BikeTrace</a></h4>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
             <div class="col-lg-4 col-md-12 order-3">
                 <div class="row products-right">
                     <div class="col-6">
-                        <div class="product-wrap">
+                        <div class="product-wrap" data-toggle="modal" data-target=".opensourcesoylent-modal">
                             <h4><a href="#" data-toggle="modal" data-target=".opensourcesoylent-modal">Open</br>Source</br>Soylent</a></h4>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
     <footer class="container-fluid">
         <div class="row elem-border">
             <div class="col-12 text-right">
-                <p>This site was designed by someone else. I'm not a designer. I just used their template. <a href="https://www.michaelpalmerwebdesign.com" target="window">&copy;2018 MP Web</a></p>
+                <p>This site was designed by someone else. I'm not a designer. I just used their template: <a href="https://www.michaelpalmerwebdesign.com" target="window">2018 MP Web</a></p>
             </div>
         </div>
     </footer>
@@ -711,7 +711,7 @@
                 <div class="modal-header">
                     <!--Modal title-->
                     <h5 class="modal-title">Aurum</h5>
-                    Modal close
+                    <!-- Modal close -->
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -952,7 +952,8 @@
                 <!--Modal footer-->
                 <div class="modal-footer text-center">
                     <a href="http://lostleaks.csail.mit.edu/" target="_blank">LostLeaks</a> |
-                    <a href="https://github.com/RogerTangos/NatGas" target="_blank">LostLeaks Github</a> |
+                    <a href="https://github.com/RogerTangos/NatGas" target="_blank">LostLeaks Github 1</a> |
+                    <a href="https://github.com/RogerTangos/LostLeaks" target="_blank">LostLeaks Github 2</a> |
                     <a href="https://heetma.org" target="_blank">HEETMA</a>
                 </div>
                 <!--end modal footer-->
@@ -995,9 +996,9 @@
                 <!--End modal body-->
                 <!--Modal footer-->
                 <div class="modal-footer text-center">
-                    <a href="https://industryoutlook.latentine.com/" target="_blank">Industry Outlook</a>|
+                    <a href="https://industryoutlook.latentine.com/?11" target="_blank">Industry Outlook</a>|
                     <a href="http://latentine.com/" target="_blank">Latentine</a>
-                    < </div> <!--end modal footer-->
+                    </div> <!--end modal footer-->
                 </div>
                 <!--end modal content-->
             </div>
