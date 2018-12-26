@@ -13451,10 +13451,18 @@ div#products>div .row>div:hover {
   background: #000;
 }
 
+div#products>div .row>div:hover {
+  background: #000;
+}
+
+div#products>div .row>div:hover * {
+  color: #fff;
+}
+
 div#products>div .row>div .product-wrap {
   height: calc(210px - 1px);
   line-height: calc(210px - 1px);
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 @media (min-width: 1500px) {
