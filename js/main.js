@@ -74,25 +74,13 @@
    * 2: Once the loading text is completed check if the youtube video has loaded
    * 3: When the youtube video is loaded remove the preloader
    */
-  var interval = null, inc = 50;
+  var interval = null, inc = 5;
   function run_preloader () {
     var p = $('p.loading-text'),
         preloader = $('.preloader');
 
     interval = setInterval(function(){
       var len = p.children('span').length, i = 0;
-      for (i; i < len; i++) {
-        if (!$(p.children('span')[i]).hasClass('load-letter')) {
-          $(p.children('span')[i]).addClass('load-letter');
-          return false;
-        }
-      }
-
-      if ($('.load-letter').length === p.children('span').length) {
-
-        setTimeout(function () {
-          p.next('p').addClass('is-loaded');
-        }, (inc));
 
         setTimeout(function () {
           clearInterval(interval);
@@ -102,7 +90,6 @@
             $(this).remove();
           });
         }, (inc*4));
-      }
     }, inc);
   }//end fn run_preloader
 
