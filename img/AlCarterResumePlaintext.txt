@@ -109,12 +109,16 @@ openPDS | Django + MongoDB | 2015
     - features were migrated to the DataHub project
 
 
-******* Languages & Libraries: *******
+******* Languages, Frameworks, Libraries, & Tools: *******
 Python
 Clojure
 
 SQL
 GraphQL
+
+Kubernetes
+Docker
+OpenFaaS
 
 Javascript
 Clojurescript
@@ -125,7 +129,7 @@ TensorFlow
 
 NumPy
 Pandas
-Jupyter-Notebook
+Jupyter
 
 Django
 Flask
