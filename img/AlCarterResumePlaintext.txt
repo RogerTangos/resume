@@ -108,6 +108,12 @@ openPDS | Django + MongoDB | 2015
       and integrate additional sensing libraries
     - features were migrated to the DataHub project
 
+Comic Science | Activism, Project Management | 2019-2020
+    xrscience.earth
+    - scientists and designers communicating the environmental crisis in an accessible way
+    - founder and organizer
+    - built project-based coalitions with other groups
+    - recruited team members
 
 ******* Languages, Frameworks, Libraries, & Tools: *******
 Python
