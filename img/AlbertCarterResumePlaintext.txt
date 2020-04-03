@@ -38,7 +38,7 @@ Founder, Internal Organizer
 Cargo Vessel Route and ETA Prediction | Machine Learning | 2018-2019
     - a web API predicting cargo vessels' next ports of call and arrival times
     - predicted vessel routes for the next 3 port calls
-    - predicted vessel port call times within 10 hours.
+    - predicted vessel port call times within 10 hours
     - cleaned data; created algorithms
     - deployed service as a RESTful API
     - various techniques:
