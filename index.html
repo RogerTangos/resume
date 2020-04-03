@@ -145,10 +145,10 @@
         <div id="services" class="row">
             <div class="col-lg-4 col-md-12 order-2 order-lg-1 order-md-2 order-sm-2">
                 <div class="row elem-border services-left">
-                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".trane-modal">
-                        <h4>Trane <br /></h4>
-                        <p>A tool for automatically formulating prediction problems</p>
-                        <a href="#" data-toggle="modal" data-target=".trane-modal">Read more</a>
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".shipping-modal">
+                        <h4>Shipping Vessel Prediction<br /></h4>
+                        <p>A web API and data science project predicting cargo vessels' next ports of call and arrival times</p>
+                        <a href="#" data-toggle="modal" data-target=".shipping-modal">Read more</a>
                     </div>
                     <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".atm-modal">
                         <h4>Auto Tuning<br/> Models</h4>
@@ -183,12 +183,12 @@
             </div>
             <div class="col-lg-10">
                 <div class="row prices-right">
-                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".opensensing-modal">
-                        <h4>OpenSensing</h4>
-                        <p><a href="#" data-toggle="modal" data-target=".opensensing-modal">Read more</a></p>
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".trane-modal">
+                        <h4>Trane</h4>
+                        <p><a href="#" data-toggle="modal" data-target=".trane-modal">Read more</a></p>
                     </div>
-                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".getfit-modal">
-                        <h4>GetFit</h4>
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".placeholder">
+                        <h4>placeholder</h4>
                         <p><a href="#" data-toggle="modal" data-target=".getfit-modal">Read more</a></p>
                     </div>
                     <div class="col-sm-4 col-12" data-toggle="modal" data-target=".bigdawg-modal">
@@ -239,19 +239,19 @@
                     </div>
                     <div class="col-6">
                         <div class="product-wrap">
-                            <h4>More</h4>
+                            <h4><a href="#" data-toggle="modal" data-target=".opensensing-modal">Opensensing</a></h4>
                         </div>
                     </div>
                 </div>
                 <div class="row products-right">
                     <div class="col-6">
                         <div class="product-wrap">
-                            <h4>To</h4>
+                            <h4><a href="#" data-toggle="modal" data-target=".getfit-modal">GetFit</a></h4>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="product-wrap">
-                            <h4>Come</h4>
+                            <h4><a href="#" data-toggle="modal" data-target=".atm-modal">Auto Tuning</br>Models</a></h4>
                         </div>
                     </div>
                 </div>
@@ -555,6 +555,49 @@
         </div>
     </div>
     <!--end Brown -->
+    <!--Shipping -->
+    <div class="modal fade shipping-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--Modal header-->
+                <div class="modal-header">
+                    <!--Modal title-->
+                    <h5 class="modal-title">Shipping Vessel Prediction</h5>
+                    <!--Modal close-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--end modal header-->
+                <!--Modal body-->
+                <div class="modal-body">
+                    <h6>Description:</h6>
+                    <p>This was a data science project and associated web API to predicting cargo vessels' next ports of call and arrival times</p>
+                    <p>Eventually, this tool was able to predicted vessel's next 3 port calls 50% of the time, for any non-oil tanker shipping vessel in the world. In instances when the next port call was predicted correctly, the tool predicted port call times within 10 hours, over 50% of the time.</p>
+                    <p>My role involves a large amount of data engineering, followed by designing and trying algorithms. Finally, I was able to write a RESTful server in Flask.</p>
+                    <p>Some techniques I used include data interpolation, sequence generators, DNN's, Markov chains, and many auto ML ensembles</p>
+                    <h6>Meta:</h6>
+                    <ul>
+                        <li>Start: 2018</li>
+                        <li>End: 2019</li>
+                        <li>Location: Berlin, Germany</li>
+                        <li>Role(s):</li>
+                        <ul>
+                            <li>Research Programmer</li>
+                        </ul>
+                    </ul>
+                </div>
+                <!--End modal body-->
+                <!--Modal footer-->
+                <div class="modal-footer text-center">
+                    <p><a href="https:latentine.com" target="_blank">My Employer at the time: Latentine</a></p>
+                </div>
+                <!--end modal footer-->
+            </div>
+            <!--end modal content-->
+        </div>
+    </div>
+    <!--end Shipping -->
     <!--Trane -->
     <div class="modal fade trane-modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
