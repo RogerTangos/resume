@@ -147,13 +147,13 @@
                 <div class="row elem-border services-left">
                     <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".shipping-modal">
                         <h4>Shipping Vessel Prediction<br /></h4>
-                        <p>A web API and data science project predicting cargo vessels' next ports of call and arrival times</p>
+                        <p>A data science project predicting cargo vessels' ports of call and arrival times</p>
                         <a href="#" data-toggle="modal" data-target=".shipping-modal">Read more</a>
                     </div>
-                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".atm-modal">
-                        <h4>Auto Tuning<br/> Models</h4>
-                        <p>An application for automatically selecting and tuning ML models</p>
-                        <a href="#" data-toggle="modal" data-target=".atm-modal">Read more</a>
+                    <div class="col-lg-12 col-sm-6 col-6" data-toggle="modal" data-target=".robot-studio-modal">
+                        <h4>Robot Studio</h4>
+                        <p>A web app allowing end-users to produce ML models without labeled data</p>
+                        <a href="#" data-toggle="modal" data-target=".robot-studio-modal">Read more</a>
                     </div>
                 </div>
             </div>
@@ -187,9 +187,9 @@
                         <h4>Trane</h4>
                         <p><a href="#" data-toggle="modal" data-target=".trane-modal">Read more</a></p>
                     </div>
-                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".placeholder">
-                        <h4>placeholder</h4>
-                        <p><a href="#" data-toggle="modal" data-target=".getfit-modal">Read more</a></p>
+                    <div class="col-sm-4 col-12" data-toggle="modal" data-target=".transcript-modal">
+                        <h4>Transcription</h4>
+                        <p><a href="#" data-toggle="modal" data-target=".transcript-modal">Read more</a></p>
                     </div>
                     <div class="col-sm-4 col-12" data-toggle="modal" data-target=".bigdawg-modal">
                         <h4>BigDawg</h4>
@@ -555,6 +555,89 @@
         </div>
     </div>
     <!--end Brown -->
+    <!--Transcripts -->
+    <div class="modal fade transcript-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--Modal header-->
+                <div class="modal-header">
+                    <!--Modal title-->
+                    <h5 class="modal-title">Transcript Transcription</h5>
+                    <!--Modal close-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--end modal header-->
+                <!--Modal body-->
+                <div class="modal-body">
+                    <h6>Description:</h6>
+                    <p>This was a project to ingest messy, warped, university transcript image files, and export structured data from them</p>
+                    <p>It involved writing some docker images to extract various sections of text, using <a href="https://spacy.io/" target="_blank">spaCy</a> methods to match certain phrase combinations (NLP, I guess?), and some frontend work in ClojureScript</p>
+                    <h6>Meta:</h6>
+                    <ul>
+                        <li>Start: 2019</li>
+                        <li>End: 2019</li>
+                        <li>Location: Berlin, Germany</li>
+                        <li>Role(s):</li>
+                        <ul>
+                            <li>Research Programmer</li>
+                        </ul>
+                    </ul>
+                </div>
+                <!--End modal body-->
+                <!--Modal footer-->
+                <div class="modal-footer text-center">
+                    <p><a href="https:latentine.com" target="_blank">My Employer at the time: Latentine</a></p>
+                </div>
+                <!--end modal footer-->
+            </div>
+            <!--end modal content-->
+        </div>
+    </div>
+    <!--end Transcripts -->
+    <!--Robot Studio -->
+    <div class="modal fade robot-studio-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--Modal header-->
+                <div class="modal-header">
+                    <!--Modal title-->
+                    <h5 class="modal-title">Robot Studio</h5>
+                    <!--Modal close-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--end modal header-->
+                <!--Modal body-->
+                <div class="modal-body">
+                    <h6>Description:</h6>
+                    <p>This is a project to build a web application, which allows end-users to train, create, and deploy supervised machine learning without labeled data.</p>
+                    <p>It's still in progress and is an interesting application of weak supervision.</p>
+                    <p>My role has involved writing kubernetes training "pods" and a kubernetes command and control server to coordinate the pods, contributing to a <a href="https://opencrux.com/" target="_blank">CRUX</a>CRUX database schema, and contributions to the backend domain specific language</p>
+                    <h6>Meta:</h6>
+                    <ul>
+                        <li>Start: 2018</li>
+                        <li>End: ongoing</li>
+                        <li>Location: Berlin, Germany</li>
+                        <li>Role(s):</li>
+                        <ul>
+                            <li>Research Programmer</li>
+                        </ul>
+                    </ul>
+                </div>
+                <!--End modal body-->
+                <!--Modal footer-->
+                <div class="modal-footer text-center">
+                    <p><a href="https:latentine.com" target="_blank">My Employer at the time: Latentine</a></p>
+                </div>
+                <!--end modal footer-->
+            </div>
+            <!--end modal content-->
+        </div>
+    </div>
+    <!--end Robot Studio -->
     <!--Shipping -->
     <div class="modal fade shipping-modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
