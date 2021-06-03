@@ -6064,6 +6064,7 @@ button.close {
 
 .modal-open {
   overflow: hidden;
+  z-index: 1;
 }
 
 .modal {
