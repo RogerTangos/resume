@@ -1,8 +1,10 @@
 Albert R Carter
-Programmer in Berlin, Germany, open to relocation
+Activist, Programmer, and Engineering Manager in Nijmegen, Netherlands
+Open to remote or local colalboration
+Authorized to work in the Netherlands and in the United States
 
 ******* Contact: *******
-Berlin, Deutschland
+Nijmegen, Netherlands
 
 albertrcarter.com
 github.com/RogerTangos
@@ -17,23 +19,43 @@ Northeastern University Information Systems
 MS, 3.6 GPA, 2014
 
 ******* Institute *******
-MIT Computer Science and Artificial Intelligence Lab (CSAIL) - https://www.csail.mit.edu/
-Big Data Initiative, Research Staff and Programmer, 2014-2017
+MIT Computer Science and Artificial Intelligence Lab (CSAIL) 2014-2017
+https://www.csail.mit.edu/
+Big Data Living Lab Initiative, Research Staff and Programmer
+http://livinglab.mit.edu
 
 I spent my time here using, testing, fixing, open-sourcing
 version 0.01 research, and bringing it closer to production.
 
 ******* Startup *******
-Latentine - https://latentine.com
+parcelLab - https://parcelLab.com
+Engineering Manager, Senior Developer, 2021-2022
+A Logistics Data Company
+
+Stay Tidy / Latentine - https://staytidy.co
 Research Programmer, 2018-2020,
 A B2B Machine Learning Company
 
 ******* Activism *******
-Comic Science - https://xrscience.earth
-Founder, Internal Organizer
+Comic Science - https://xrscience.earth, 2019-2021
+Founder, Product Owner
 
+Bank.Green - https://bank.green, 
+Founder, Head of financial data
 
 ******* Selected Projects: *******
+
+End to End Monitoring | Systems Monitoring | 2021-2022
+    –	a project to monitor TB level data collection, processing, and communications
+    –	installed counters in key functions
+    –	created, configured systems generating Datadog monitors, dashboards 
+    –	40% reduction in engineering and operations toil
+
+Zelda | Legacy Systems Migration | 2021-2022
+    –	construction of new data collection, auth, and cleaning systems and migration of legacy systems to this new system
+    –	managed the team building and modifying new data ingestion systems
+    –	built migration validation scripts
+    –	migrated 100's of legacy systems to the new system
 
 Cargo Vessel Route and ETA Prediction | Machine Learning | 2018-2019
     - a web API predicting cargo vessels' next ports of call and arrival times
@@ -118,28 +140,28 @@ Comic Science | Activism, Project Management | 2019-2020
 ******* Languages, Frameworks, Libraries, & Tools: *******
 Python
 Clojure
+Javascript
+Typescript
 
 SQL
+NoSQL
 GraphQL
+
+React.js
+Django
+Flask
 
 Kubernetes
 Docker
 OpenFaaS
 
-Javascript
-Clojurescript
-React.js
-
+Datadog
 Scikit-learn
 TensorFlow
 
 NumPy
 Pandas
 Jupyter
-
-Django
-Flask
-Ring
 
 ******* Misc Skills/Interests: *******
 Agile Development
